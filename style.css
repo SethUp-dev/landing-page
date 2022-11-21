@@ -9,7 +9,6 @@ body {
   background: #1f2937;
   font-family: 'Roboto', sans-serif;
   color: #E5E7EB;
-  
 }
 
 .container {
@@ -19,12 +18,11 @@ body {
 }
 
 .navbar .container{
-  border: 1px solid white;
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 100%;
-  padding: 8px 30px;
+  padding: 16px 30px;
 }
 
 .navbar .logo {
@@ -43,4 +41,45 @@ body {
   color:#E5E7EB;
   text-decoration: none;
 }
+
+
+.header h1 {
+  font-size: 48px;
+  font-weight: extra-bold;  
+  color: #F9FAF8;
+}
+
+.header p {
+  font-size: 18px;
+  color: #E5E7EB;
+  margin-bottom: 16px;
+
+}
+
+.header img {
+  background-color: #8a8b8c;
+  width: 500px;
+  height: 250px;
+  border: 1px solid white;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  gap: 4em;
+  height: 480px;
+}
+
+.btn-signup {
+  color: #fff;
+  background-color: #3882F6;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 8px 36px;
+  border-style: none;
+}
+
+
+
 
