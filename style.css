@@ -1,8 +1,33 @@
 body {
   box-sizing: border-box;
   background-color: #1f2937;
-  color: white;
   font-family: 'Roboto', sans-serif;
+  color: #E5E7EB;
   margin: 0;
   padding: 0;
 }
+
+.navbar .container{
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+
+.logo {
+  color: #F9FAF8;
+  font-size: 24px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1em;
+}
+
+.navbar a {
+  color:#E5E7EB;
+  text-decoration: none;
+}
+
