@@ -128,7 +128,7 @@ body {
   flex-direction: column;
   justify-content: center;
   height: 400px;
-  width: 100%;
+  width: 950px;
   gap: 16px;
 }
 
@@ -143,6 +143,30 @@ body {
   font-weight: bold;
   align-self: flex-end;
 }
+
+.signup-sect {
+  height: 380px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.signup-sect .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882F6;
+  color: #fff;
+  border-radius: 8px; 
+  height: 150px;
+  width: 100%;
+}
+
+.btn-signup {
+  border: 1px solid #fff;
+}
+
+
 
 
 
