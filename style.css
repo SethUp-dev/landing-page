@@ -6,11 +6,12 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   background: #1f2937;
   font-family: 'Roboto', sans-serif;
   color: #E5E7EB;
   font-size: 18px;
-  height: 1912px;
 }
 
 .container {
@@ -162,11 +163,18 @@ body {
   width: 100%;
 }
 
-.btn-signup {
+.signup-sect .btn-signup {
   border: 1px solid #fff;
 }
 
 
+.footer {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
 
 
 
