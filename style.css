@@ -118,6 +118,31 @@ body {
   align-items: center;
 }
 
+.testimonial {
+  background-color: #E5E7EB;
+  color: #1F2937;
+}
+
+ .testimonial .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 400px;
+  width: 100%;
+  gap: 16px;
+}
+
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 200;
+}
+
+.quote-by {
+  font-weight: bold;
+  align-self: flex-end;
+}
 
 
 
